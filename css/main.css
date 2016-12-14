@@ -23,10 +23,8 @@
 	
 }
 body {
-	font-family: "Calibri", sans-serif;
-	font-size: 16px;
-	min-width: 320px;
-	position: relative;
+	font:100%/1.5em "Calibri", sans-serif;
+	
 	
 }
 .fluid_bg{
@@ -37,8 +35,8 @@ body {
 .container .cols{
 	float:left;
 	margin: 0 0 1em;
-	padding: 0 1em;
-	text-align: center;
+	
+	text-align: left;
 }
 
 .container .cols.col-1  {width:8.333333333333333%; }
@@ -73,26 +71,34 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     }
+    .us{
+    color:#457856;
+    margin-left: 2%;
+    }
 }
 @media screen and (max-width: 90em) {
     .fluid_bg{
-    background: url(../img/fonmax.jpg) no-repeat top center;
+    background: url(../img/fonmax1.png) no-repeat top center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     }
+    #logo{
+    max-width: 210px;	
+	}
 }
  @media screen and (max-width: 75em) {
     .fluid_bg{
-    background: url(../img/fonmed.jpg) no-repeat top center;
+    background: url(../img/fonmed1.png) no-repeat top center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     }
+
 }
 @media screen and (max-width: 45em) {
     .fluid_bg{
-    background: url(../img/fonmin.jpg) no-repeat top center;
+    background: url(../img/fonmin1.png) no-repeat top center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -101,7 +107,7 @@ body {
 
 @media screen and (max-width: 25em) {
     .fluid_bg{
-    background: url(../img/fonminmin.jpg) no-repeat top center;
+    background: url(../img/fonminmin1.png) no-repeat top center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -114,4 +120,15 @@ article, aside, details, figcaption, figure, footer, hgroup, menu, nav, section 
 img {
     max-width: 100%;
     height: auto;
+}
+.top_line{
+	font-size: 1.5em;
+	padding-top: 2%;
+
+}
+#logo{
+position: absolute;
+margin-top: -5%;
+margin-left: 1%;
+max-width: 310px;		
 }
